@@ -61,7 +61,7 @@ export const DATA = {
       start: "Nov 2023",
       end: "Present",
       description:
-        "Developed a business application using React Native to facilitate job posting for thousands of gig workers. Enhanced gig worker experience with job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement. Built a CI/CD pipeline reducing deployment time by 40%.",
+        "Developed a business application using React Native to facilitate job posting for thousands of gig workers. Enhanced gig worker experience with job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement. Built a CI/CD pipeline reducing deployment time by 40%. Added AI orchestration to the catering platform, working toward an AI agent that runs entire events.",
     },
     {
       company: "Code Help",
