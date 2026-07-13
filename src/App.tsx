@@ -105,8 +105,8 @@ export default function App() {
   const s = DATA.contact.social;
 
   const projects = [
-    { name: "androclaw", href: "https://github.com/AndroClawD/AndroClaw", note: "an on-device agentic ai assistant for android — your phone, but agentic" },
-    { name: "sola ai", href: "https://github.com/21prnv/sola-ai", note: "ai for your wallets: chat your way across chains — swaps, sends + markets" },
+    { name: "androclaw", href: "https://github.com/AndroClawD/AndroClaw", note: "an on-device agentic ai assistant for android, your phone but agentic" },
+    { name: "sola ai", href: "https://github.com/21prnv/sola-ai", note: "ai for your wallets: chat your way across chains, swaps, sends + markets" },
     { name: "codedestate", href: "https://www.codedestate.com/", note: "real estate on-chain: fractional ownership, rentals + rwa trading" },
     { name: "biorswap", href: "https://www.biorswap.com/", note: "a multi-asset crypto exchange" },
     { name: "satyacheck ai", href: "https://satya-check.vercel.app/", note: "fights political propaganda + misinformation with ai" },
@@ -131,7 +131,7 @@ export default function App() {
     { name: "ziti", href: "https://letsziti.com/", note: "founding engineer" },
     { name: "codehelp", href: "https://www.codehelp.in/", note: "wrote 80+ articles on react + typescript" },
     { name: "tarotit", href: "https://tarotit.com/", note: "react native developer intern" },
-    { name: "tripo saints", href: "https://triposaints.com/", note: "software developer intern" },
+    { name: "tripo saints", href: "https://triposaints.com/", note: "full stack developer intern" },
   ].map((w, i) => ({
     ...w,
     period: `${DATA.work[i].start} to ${DATA.work[i].end}`.toLowerCase(),
@@ -154,6 +154,7 @@ export default function App() {
       <h1 className="text-[2.75rem] font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl">
         hey, i'm pranav.
       </h1>
+      <p className="mt-2 text-[15px] text-muted">software engineer</p>
 
       {/* story */}
       <div className="mt-6 space-y-5 text-body">

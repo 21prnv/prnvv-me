@@ -89,7 +89,7 @@ export const DATA = {
       company: "Tripo Saints",
       href: "https://triposaints.com/",
       location: "Remote",
-      title: "Software Developer",
+      title: "Full Stack Developer Intern",
       logoUrl: "/tripo-saints.png",
       start: "Mar 2023",
       end: "Jun 2023",
@@ -123,7 +123,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "An on-device AI assistant for Android — your phone, but agentic. Connects to multiple LLM providers (Claude, OpenAI, Gemini, Groq, OpenRouter) and executes real actions on your phone: sending messages, making calls, searching the web, controlling other apps via accessibility, and reasoning about screenshots. Features an agentic tool-calling loop with 30+ device tools, a skills system for custom slash commands, and a local-first, security-first design.",
+        "An on-device AI assistant for Android, your phone but agentic. Connects to multiple LLM providers (Claude, OpenAI, Gemini, Groq, OpenRouter) and executes real actions on your phone: sending messages, making calls, searching the web, controlling other apps via accessibility, and reasoning about screenshots. Features an agentic tool-calling loop with 30+ device tools, a skills system for custom slash commands, and a local-first, security-first design.",
       technologies: ["Kotlin", "Jetpack Compose", "Room", "Agentic AI", "LLMs", "Tool Calling"],
       link: "https://github.com/AndroClawD/AndroClaw",
     },
@@ -133,7 +133,7 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "AI for your wallets — chat your way across chains. Sola-AI turns a multi-chain wallet into a conversational interface: portfolios, swaps, sends, prediction markets, and vaults, all from one conversation. The LLM is wired to a registry of typed tools that build unsigned transactions while private keys never leave the browser (non-custodial). Supports natural-language swaps, Polymarket prediction markets, and streaming tool cards.",
+        "AI for your wallets, chat your way across chains. Sola-AI turns a multi-chain wallet into a conversational interface: portfolios, swaps, sends, prediction markets, and vaults, all from one conversation. The LLM is wired to a registry of typed tools that build unsigned transactions while private keys never leave the browser (non-custodial). Supports natural-language swaps, Polymarket prediction markets, and streaming tool cards.",
       technologies: ["Next.js", "Typescript", "AI SDK", "Tool Calling", "Web3", "LLMs"],
       link: "https://github.com/21prnv/sola-ai",
     },
