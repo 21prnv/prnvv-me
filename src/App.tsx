@@ -105,6 +105,8 @@ export default function App() {
   const s = DATA.contact.social;
 
   const projects = [
+    { name: "androclaw", href: "https://github.com/AndroClawD/AndroClaw", note: "an on-device agentic ai assistant for android — your phone, but agentic" },
+    { name: "sola ai", href: "https://github.com/21prnv/sola-ai", note: "ai for your wallets: chat your way across chains — swaps, sends + markets" },
     { name: "codedestate", href: "https://www.codedestate.com/", note: "real estate on-chain: fractional ownership, rentals + rwa trading" },
     { name: "biorswap", href: "https://www.biorswap.com/", note: "a multi-asset crypto exchange" },
     { name: "satyacheck ai", href: "https://satya-check.vercel.app/", note: "fights political propaganda + misinformation with ai" },
@@ -162,10 +164,11 @@ export default function App() {
         </p>
         <p>that curiosity never left. it quietly turned into a whole career.</p>
         <p>
-          today i'm a 22-year-old software engineer based in{" "}
+          today i'm a 22-year-old software & ai engineer based in{" "}
           <A href={DATA.locationLink}>pune</A>, india. i build full-stack web and
-          mobile products, and i've spent the last few years shipping things
-          end-to-end with founders at 5+ startups.
+          mobile products and the ai agents that run inside them, and i've spent
+          the last few years shipping things end-to-end with founders at 5+
+          startups.
         </p>
         <p>
           right now i'm a software engineer at{" "}

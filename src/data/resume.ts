@@ -9,11 +9,11 @@ export const DATA = {
   url: "https://www.prnvv.me/",
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/Pune,+Maharashtra",
-  tagline: "Software Engineer",
+  tagline: "Software & AI Engineer",
   description:
     "I'm a software engineer with a strong background in full-stack and mobile app development.",
   summary:
-    "I'm a 22-year-old passionate Software Engineer. I've worked in 3+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience includes building high-impact applications, improving user engagement, and optimizing backend performance. I've developed projects using React Native, Next.js, Redux, and more. Alongside my tech journey, I also pursue farming. I continue to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!",
+    "I'm a 22-year-old passionate Software & AI Engineer. I've worked in 3+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience spans building high-impact applications, improving user engagement, and optimizing backend performance. Lately I've focused on AI engineering, building tool-calling agents, LLM-powered assistants, RAG pipelines, and agent orchestration that let users get things done through natural language. I've developed projects using React Native, Next.js, Redux, and modern AI tooling. Alongside my tech journey, I also pursue farming. I continue to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!",
   avatarUrl: "/meee.jpg",
   contact: {
     email: "pranavpatil6251@gmail.com",
@@ -50,7 +50,7 @@ export const DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "At BiorBank, I lead a team of 4 developers and helped architect a production-grade multi-chain mobile wallet and backend platform supporting 20+ blockchains across EVM, Bitcoin, Solana, Cosmos, and Polkadot. I implemented HD wallet flows (BIP39), secure imports, cross-chain swaps, send/receive security, DeFi and P2P modules, AI-powered in-app assistance, and robust backend transaction lifecycle services with BullMQ, Redis, and real-time notifications. I also built admin KPI and campaign tooling, while delivering frontend features with React 18 and Redux.",
+        "At BiorBank, I lead a team of 4 developers and helped architect a production-grade multi-chain mobile wallet and backend platform supporting 20+ blockchains across EVM, Bitcoin, Solana, Cosmos, and Polkadot. I implemented HD wallet flows (BIP39), secure imports, cross-chain swaps, send/receive security, DeFi and P2P modules, AI-powered in-app assistance, and robust backend transaction lifecycle services with BullMQ, Redis, and real-time notifications. I also built admin KPI and campaign tooling, and designed the AI agent infrastructure powering the platform, building tool-calling agents with LLMs, MCP-based integrations, and RAG pipelines that let users manage wallets, execute transactions, and query on-chain data through natural language, backed by guardrails and multi-step orchestration. I delivered frontend features with React 18 and Redux.",
     },
     {
       company: "ZiTi",
@@ -117,6 +117,26 @@ export const DATA = {
     },
   ],
   webProjects: [
+    {
+      title: "AndroClaw",
+      href: "https://github.com/AndroClawD/AndroClaw",
+      dates: "2026",
+      active: true,
+      description:
+        "An on-device AI assistant for Android — your phone, but agentic. Connects to multiple LLM providers (Claude, OpenAI, Gemini, Groq, OpenRouter) and executes real actions on your phone: sending messages, making calls, searching the web, controlling other apps via accessibility, and reasoning about screenshots. Features an agentic tool-calling loop with 30+ device tools, a skills system for custom slash commands, and a local-first, security-first design.",
+      technologies: ["Kotlin", "Jetpack Compose", "Room", "Agentic AI", "LLMs", "Tool Calling"],
+      link: "https://github.com/AndroClawD/AndroClaw",
+    },
+    {
+      title: "Sola AI",
+      href: "https://github.com/21prnv/sola-ai",
+      dates: "2026",
+      active: true,
+      description:
+        "AI for your wallets — chat your way across chains. Sola-AI turns a multi-chain wallet into a conversational interface: portfolios, swaps, sends, prediction markets, and vaults, all from one conversation. The LLM is wired to a registry of typed tools that build unsigned transactions while private keys never leave the browser (non-custodial). Supports natural-language swaps, Polymarket prediction markets, and streaming tool cards.",
+      technologies: ["Next.js", "Typescript", "AI SDK", "Tool Calling", "Web3", "LLMs"],
+      link: "https://github.com/21prnv/sola-ai",
+    },
     {
       title: "SatyaCheck AI",
       href: "https://satya-check.vercel.app/",
