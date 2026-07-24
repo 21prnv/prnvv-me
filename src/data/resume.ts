@@ -13,7 +13,7 @@ export const DATA = {
   description:
     "I'm a software engineer with a strong background in full-stack and mobile app development.",
   summary:
-    "I'm a 22-year-old passionate Software & AI Engineer. I've worked in 3+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience spans building high-impact applications, improving user engagement, and optimizing backend performance. Lately I've focused on AI engineering, building tool-calling agents, LLM-powered assistants, RAG pipelines, and agent orchestration that let users get things done through natural language. I've developed projects using React Native, Next.js, Redux, and modern AI tooling. Alongside my tech journey, I also pursue farming. I continue to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!",
+    "I'm a 22-year-old passionate Software & AI Engineer. I've worked in 3+ startups where I collaborated directly with founders, leading and shipping end-to-end projects independently. My experience spans building high-impact applications, improving user engagement, and optimizing backend performance. Lately I've focused on AI engineering, building LLM agents, RAG pipelines, and agent orchestration that let users get things done through natural language. I've developed projects using React Native, Next.js, Redux, and modern AI tooling. Alongside my tech journey, I also pursue farming. I continue to explore new technologies and remain curious about learning. Always eager to build, learn, and innovate!",
   avatarUrl: "/meee.jpg",
   contact: {
     email: "pranavpatil6251@gmail.com",
@@ -50,7 +50,7 @@ export const DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "At BiorBank, I lead a team of 4 developers and helped architect a production-grade multi-chain mobile wallet and backend platform supporting 20+ blockchains across EVM, Bitcoin, Solana, Cosmos, and Polkadot. I implemented HD wallet flows (BIP39), secure imports, cross-chain swaps, send/receive security, DeFi and P2P modules, AI-powered in-app assistance, and robust backend transaction lifecycle services with BullMQ, Redis, and real-time notifications. I also built admin KPI and campaign tooling, and designed the AI agent infrastructure powering the platform, building tool-calling agents with LLMs, MCP-based integrations, and RAG pipelines that let users manage wallets, execute transactions, and query on-chain data through natural language, backed by guardrails and multi-step orchestration. I delivered frontend features with React 18 and Redux.",
+        "At BiorBank I designed the AI agent infrastructure powering the product: LLM agents with RAG pipelines over on-chain and market data, guardrails, and multi-step orchestration that let users execute transactions in natural language. I engineered a durable transaction-processing runtime on BullMQ and Redis with automatic retries, dead-letter queues, and FCM notifications, reliably executing 10K+ transactions a day on a platform that moves real customer funds. I lead a team of 4 across mobile and backend, owning architecture, sprint planning, code review, and the technical roadmap for a multi-chain wallet supporting 20+ blockchains, and delivered frontend features with React and Redux.",
     },
     {
       company: "ZiTi",
@@ -61,7 +61,7 @@ export const DATA = {
       start: "Nov 2023",
       end: "Present",
       description:
-        "Developed a business application using React Native to facilitate job posting for thousands of gig workers. Enhanced gig worker experience with job check-ins/checkouts and real-time location tracking, resulting in a 25% improvement. Built a CI/CD pipeline reducing deployment time by 40%. Added AI orchestration to the catering platform, working toward an AI agent that runs entire events.",
+        "Built India's first digital catering platform, serving 300+ caterers on a scalable PostgreSQL schema with real-time subscriptions and offline-first sync. Automated multi-step operational workflows with AI agents for quotations, menu planning, and lead follow-ups, replacing manual back-and-forth for operations teams. Architected 5 applications on Clean Architecture and MVVM with a shared data layer, cutting code duplication by 40%, and deployed serverless edge functions on Supabase and AWS Lambda for automated workflows, payments, and third-party integrations.",
     },
     {
       company: "Code Help",
@@ -94,7 +94,7 @@ export const DATA = {
       start: "Mar 2023",
       end: "Jun 2023",
       description:
-        "Implemented GraphQL for data optimization in web and mobile applications, enhancing processing speed by 20%, and leveraged React Native, resulting in a 15% increase in user satisfaction. Created 15+ responsive pages and components using React.js and Tailwind CSS, with Jest unit tests and a CI/CD pipeline that reduced deployment time by 80%.",
+        "Built full-stack React and GraphQL applications: designed schemas and resolvers with query batching, subscriptions, and field-level caching, cutting network requests by 60%. Created responsive pages and components with React.js and Tailwind CSS, backed by Jest unit tests and a CI/CD pipeline.",
     },
   ],
   education: [
@@ -123,8 +123,8 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "An on-device AI assistant for Android, your phone but agentic. Connects to multiple LLM providers (Claude, OpenAI, Gemini, Groq, OpenRouter) and executes real actions on your phone: sending messages, making calls, searching the web, controlling other apps via accessibility, and reasoning about screenshots. Features an agentic tool-calling loop with 30+ device tools, a skills system for custom slash commands, and a local-first, security-first design.",
-      technologies: ["Kotlin", "Jetpack Compose", "Room", "Agentic AI", "LLMs", "Tool Calling"],
+        "An on-device AI assistant for Android, your phone but agentic. Connects to multiple LLM providers (Claude, OpenAI, Gemini, Groq, OpenRouter) and executes real actions on your phone: sending messages, making calls, searching the web, controlling other apps via accessibility, and reasoning about screenshots. Features an agentic loop with 30+ device actions, a skills system for custom slash commands, and a local-first, security-first design.",
+      technologies: ["Kotlin", "Jetpack Compose", "Room", "Agentic AI", "LLMs", "Agent Orchestration"],
       link: "https://github.com/AndroClawD/AndroClaw",
     },
     {
@@ -133,8 +133,8 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "AI for your wallets, chat your way across chains. Sola-AI turns a multi-chain wallet into a conversational interface: portfolios, swaps, sends, prediction markets, and vaults, all from one conversation. The LLM is wired to a registry of typed tools that build unsigned transactions while private keys never leave the browser (non-custodial). Supports natural-language swaps, Polymarket prediction markets, and streaming tool cards.",
-      technologies: ["Next.js", "Typescript", "AI SDK", "Tool Calling", "Web3", "LLMs"],
+        "AI for your wallets, chat your way across chains. Sola-AI turns a multi-chain wallet into a conversational interface: portfolios, swaps, sends, prediction markets, and vaults, all from one conversation. An LLM agent builds unsigned transactions server-side while private keys never leave the browser (non-custodial). Supports natural-language swaps, Polymarket prediction markets, and streaming interactive cards.",
+      technologies: ["Next.js", "Typescript", "AI SDK", "Agents", "Web3", "LLMs"],
       link: "https://github.com/21prnv/sola-ai",
     },
     {

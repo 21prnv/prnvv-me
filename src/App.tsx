@@ -154,7 +154,7 @@ export default function App() {
       <h1 className="text-[2.75rem] font-extrabold leading-[1.05] tracking-tight text-ink sm:text-5xl">
         hey, i'm pranav.
       </h1>
-      <p className="mt-2 text-[15px] text-muted">software engineer</p>
+      <p className="mt-2 text-[15px] text-muted">full-stack & ai engineer</p>
 
       {/* story */}
       <div className="mt-6 space-y-5 text-body">
@@ -165,18 +165,20 @@ export default function App() {
         </p>
         <p>that curiosity never left. it quietly turned into a whole career.</p>
         <p>
-          today i'm a 22-year-old software & ai engineer based in{" "}
-          <A href={DATA.locationLink}>pune</A>, india. i build full-stack web and
-          mobile products and the ai agents that run inside them, and i've spent
-          the last few years shipping things end-to-end with founders at 5+
-          startups.
+          today i'm a 22-year-old full-stack & ai engineer based in{" "}
+          <A href={DATA.locationLink}>pune</A>, india. i build across
+          react/next.js front ends, node and python services, and the
+          llm agents, rag pipelines, and durable queue-backed
+          runtimes that power them. i've spent the last few years shipping
+          end-to-end with founders at 5+ startups.
         </p>
         <p>
-          right now i'm a software engineer at{" "}
+          right now i'm at{" "}
           <A href="https://biorlabs.com/">biorlabs</A>, where i lead a small team
-          building a multi-chain crypto wallet that supports 20+ blockchains. i
-          work across the whole stack: react and react native on the front,
-          node, redis and bullmq on the back.
+          building a multi-chain crypto wallet that supports 20+ blockchains.
+          i designed the ai agent infrastructure that lets people move money in
+          plain language, and a durable runtime on redis and bullmq that
+          reliably runs 10k+ transactions a day.
         </p>
         <p>
           on the side i can't stop building my own things. an ai that fights
