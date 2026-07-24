@@ -59,7 +59,7 @@ export const DATA = {
       title: "Founding Engineer",
       logoUrl: "/ziti.webp",
       start: "Nov 2023",
-      end: "Present",
+      end: "Apr 2025",
       description:
         "Built India's first digital catering platform, serving 300+ caterers on a scalable PostgreSQL schema with real-time subscriptions and offline-first sync. Automated multi-step operational workflows with AI agents for quotations, menu planning, and lead follow-ups, replacing manual back-and-forth for operations teams. Architected 5 applications on Clean Architecture and MVVM with a shared data layer, cutting code duplication by 40%, and deployed serverless edge functions on Supabase and AWS Lambda for automated workflows, payments, and third-party integrations.",
     },
