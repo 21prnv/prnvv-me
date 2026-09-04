@@ -28,7 +28,7 @@ export const DATA = {
       Email: { name: "Email", url: "mailto:pranavpatil6251@gmail.com" },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1oU0e3ONUNwvehx8cFrsvk6IIeF6y_Wto/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1WGACbdbXYZ_vRGHOXrMXcEalulsumosP/view?usp=sharing",
       },
     },
   },
