@@ -118,6 +118,16 @@ export const DATA = {
   ],
   webProjects: [
     {
+      title: "ClickProof",
+      href: "https://clickproof.app",
+      dates: "2026",
+      active: true,
+      description:
+        "AI end-to-end testing for mobile apps and websites. Describe a user journey in plain English and an AI agent executes it on an Android/iOS device or a real browser, returning a step-by-step trace, video, evidence, and verdict. Integrates with GitHub to test mobile CI artifacts and web preview deployments, reporting results directly on pull requests.",
+      technologies: ["Next.js", "Typescript", "Playwright", "PostgreSQL", "Agentic AI", "LLMs"],
+      link: "https://clickproof.app",
+    },
+    {
       title: "AndroClaw",
       href: "https://github.com/AndroClawD/AndroClaw",
       dates: "2026",

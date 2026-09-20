@@ -105,6 +105,7 @@ export default function App() {
   const s = DATA.contact.social;
 
   const projects = [
+    { name: "clickproof", href: "https://clickproof.app", note: "ai end-to-end testing for mobile apps + websites: describe a journey, get video + proof" },
     { name: "androclaw", href: "https://github.com/AndroClawD/AndroClaw", note: "an on-device agentic ai assistant for android, your phone but agentic" },
     { name: "sola ai", href: "https://github.com/21prnv/sola-ai", note: "ai for your wallets: chat your way across chains, swaps, sends + markets" },
     { name: "codedestate", href: "https://www.codedestate.com/", note: "real estate on-chain: fractional ownership, rentals + rwa trading" },
